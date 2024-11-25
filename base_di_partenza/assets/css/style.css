@@ -178,3 +178,41 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width:992px)  {
+    header nav ul li {
+        display: inline-block;
+    }
+    table {
+       margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    header div {
+        display: inline-block;
+    }
+    table {
+        margin: 0 auto;
+     }
+    .section div {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 auto;
+        width: 48%;
+    }
+   aside div {
+    display: inline-block;
+    width: 32%;
+   } 
+   aside {
+        margin-left: 3%;
+   }
+}
+
+@media print {
+    header, footer, .section, aside {
+        display: none;
+    }
+}
