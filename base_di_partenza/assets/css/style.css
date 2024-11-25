@@ -215,13 +215,13 @@ footer a {
     header div {
       position: absolute;
       top: 2%;
-      left: 8%;
+      left: 10%;
     }
   
     header nav {
       position: absolute;
       top: 3%;
-      right: 8%;
+      right: 10%;
     }
     table {
         margin: 0 auto;
