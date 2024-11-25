@@ -180,6 +180,12 @@ footer a {
 }
 
 @media screen and (min-width:992px)  {
+    h1 {
+        font-size: 80px;
+    }
+    p, li {
+        font-size: 25px;
+    }
     header nav ul li {
         display: inline-block;
     }
@@ -190,8 +196,18 @@ footer a {
 }
 
 @media screen and (min-width:1200px) {
-    header div {
+    h1 {
+        font-size: 60px;
+    }
+    p, li {
+        font-size: 20px;
+    }
+    header {
+        position:relative;
+    }
+    header div p{
         display: inline-block;
+        position: absolute;
     }
     table {
         margin: 0 auto;
@@ -204,7 +220,7 @@ footer a {
     }
    aside div {
     display: inline-block;
-    width: 32%;
+    width: 30%;
    } 
    aside {
         margin-left: 3%;
