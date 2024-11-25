@@ -202,12 +202,26 @@ footer a {
     p, li {
         font-size: 20px;
     }
-    header {
-        position:relative;
+    header div,
+    header div img,
+    header div p,
+    header nav {
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
     }
-    header div p{
-        display: inline-block;
-        position: absolute;
+  
+  
+    header div {
+      position: absolute;
+      top: 2%;
+      left: 8%;
+    }
+  
+    header nav {
+      position: absolute;
+      top: 3%;
+      right: 8%;
     }
     table {
         margin: 0 auto;
@@ -225,6 +239,7 @@ footer a {
    aside {
         margin-left: 3%;
    }
+   
 }
 
 @media print {
